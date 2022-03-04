@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+.sign-up{
+  float: right;
+}
+.img{
+  float:left;
+  
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.regbackground{
+  background: #2980B9;  
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+height:650px;
+
+}
+.dashbackground{
+  background: #2980B9;  
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+
+}
+.login{
+  background: #12c2e9; 
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+height:650px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* .for{
+  margin-left:"200px";
+} */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
